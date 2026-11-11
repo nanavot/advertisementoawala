@@ -1,0 +1,90 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: url("../images/AdBackground.jpg") no-repeat center fixed; /* illusion of text coming up instead scrolling down in place*/
+    background-size: 970px; /* cover fills image to fit entire screen */
+	position: relative;
+}
+
+@font-face {
+    font-family: 'Candal Regular';
+    src:url(../fonts/Candal-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cantarell Regular';
+    src:url(../fonts/Cantarell-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:url(../fonts/roboto.ttf) format('woff');
+}
+
+.title1 {
+    font-family: 'Candal Regular';
+    font-size: 3.5em;
+    color: white;
+    position: absolute;
+    letter-spacing: 0.3px;
+    left: 5%;
+    bottom: 70%;
+}
+
+.text1 {
+    font-family: 'Cantarell Regular';
+    font-size: 32px;
+    color: white;
+    width: 300px;
+    letter-spacing: 0.1px;
+    line-height: 40px;
+	position: absolute;
+    left: 5%;
+    bottom: 35%;
+}
+
+.text2 {
+    font-family: 'Cantarell Regular';
+    font-size: 24px;
+    color: white;
+    width: 250px;
+    letter-spacing: 0.1px;
+	position: absolute;
+	left: 72%;
+    bottom: 78%;
+}
+
+.link {
+    font-family: 'Cantarell Regular';
+    font-size: 16px;
+    text-align: center;
+    color: #111D40;
+    letter-spacing: 0.1px;
+    margin-top: 60px;
+    border: solid 2px #111D40;
+    width: 320px;
+    line-height: 24px;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    transition: 0.4s;
+	background-color: #D3DBF0; 
+	position: absolute;
+	left: 60%;
+    bottom: 20%;
+}
+
+.link:hover {
+    color: white;
+    background: #111D40;
+    transition: 0.4s;
+}
+
